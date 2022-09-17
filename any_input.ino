@@ -1,5 +1,5 @@
 /** 
-Divines the truth table for a 4 input circuit
+Divines the truth table for a n-input circuit and tests it using arduino digital outputs
 */
 
 #include "inputs.h"

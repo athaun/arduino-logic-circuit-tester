@@ -1,4 +1,5 @@
 ## Arduino Logic Circuit Tester
+Generates a truth table for a n-input circuit and tests the output circuit for every combination of input values. Reports the output as a boolean and a voltage.
 
 ### Usage example - configure in inputs.h
 ```c
