@@ -43,8 +43,10 @@ void test_row (int row) {
 void test_all () {
   for (int i = 0; i < table_length; i ++) {
     test_row(i);
-    delay(200);
+    delay(60);
   }
   
   Serial.println("Tests Completed\n");
+
+  // test_row(15);
 }
