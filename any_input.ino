@@ -11,15 +11,14 @@ void setup () {
     Serial.println("\nBeginning tests");
     generate_truth_table();
 
-    for (int i = 0; i < num_pins; i ++) {
-        pinMode(input_pins[i], OUTPUT);
-    }
+    for ( const auto& pin : input_pins ) pinMode(pin, OUTPUT);
 
     pinMode(result_pin, INPUT);
 
-    delay(10);    
+    delay(10);
+
 
     test_all();
 }
 
-void loop () {}
+void loop () { }
