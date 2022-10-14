@@ -13,6 +13,11 @@ int result_pin = 4; // White
 // Default analog read pin is A0 - also white
 ```
 
+### Test by sending row numbers over serial:
+Make sure that the serial message box is set to "No Line Ending" so that it doesn't test 0 after each read. 
+![image](https://user-images.githubusercontent.com/32278830/192028512-d41909c8-a9f5-449c-b721-296458163224.png)
+
+### Physical Setup
 ![image](https://user-images.githubusercontent.com/32278830/190841015-2518a515-1e9b-4bae-a06d-ce9536c72f72.png)
 ![image](https://user-images.githubusercontent.com/32278830/190872592-ae459164-e2aa-4938-81ea-54ebda65242c.png)
 
