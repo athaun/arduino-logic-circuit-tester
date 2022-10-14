@@ -3,10 +3,12 @@
 #define LEN(arr) ((*(&arr+1)) - arr)
 
 static const int input_pins[] = {
-  8,  // a - green
-  9,  // b - yellow
-  10, // c - blue
-  11, // d - black
+  8,  // x - black
+  9,  // y - white
+
+  10, // a - green
+  11, // b - yellow
+  12, // c - blue
 };
 
 static const int result_pin = 4;

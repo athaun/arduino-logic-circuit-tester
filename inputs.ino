@@ -35,7 +35,7 @@ void test_row (int row) {
     delay(10);
 
     Serial.print(digitalRead(result_pin));
-    Serial.print("\t");
+    Serial.print(" \t");
     Serial.print(analogRead(A0) * (5.0 / 1023.0));
     Serial.println("V");
 }
